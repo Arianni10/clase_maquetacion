@@ -1,0 +1,9 @@
+*{
+    color:rgb(214, 237, 11);
+}
+p{ color: red;
+}
+.parrafo {
+    color: green;
+}
+p.right {text-align: center;}
