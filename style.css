@@ -1,9 +1,35 @@
 *{
-    color:rgb(214, 237, 11);
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: ;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline:none ;
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
 }
-p{ color: red;
+
+ /* p {
+     visibility:visible;
+     opacity: 0.6;
+     display: block;
+
+} */
+
+p {
+     background-color: aquamarine;
+     width: 200px;
+     padding: 40px;
+
 }
-.parrafo {
-    color: green;
+
+h1 {
+    font-family: 'Lilita One', cursive;
+
 }
-p.right {text-align: center;}
+
+button {
+color: black;
+}
