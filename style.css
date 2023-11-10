@@ -19,7 +19,7 @@
 } */
 
 p {
-     background-color: aquamarine;
+     background-color: rgb(226, 62, 16);
      width: 200px;
      padding: 40px;
 
@@ -31,5 +31,5 @@ h1 {
 }
 
 button {
-color: black;
+color: rgb(193, 8, 8);
 }
