@@ -1,7 +1,7 @@
 *{
 
     font-family: 'Roboto Condensed', sans-serif;
-    color: ;
+
     text-decoration: none;
     list-style: none;
     border: none;
@@ -10,26 +10,116 @@
     margin: 0;
     box-sizing: border-box;
 }
-
- /* p {
-     visibility:visible;
-     opacity: 0.6;
-     display: block;
-
-} */
-
-p {
-     background-color: rgb(226, 62, 16);
-     width: 200px;
-     padding: 40px;
+body {
+    background-color: #FABDD4;
 
 }
 
-h1 {
+/* este es el navbar */
+
+section.nav {
+
+    background-color: #EE72A1;
+    position: sticky;
+    display: flex;
+    gap: 519px;
+    
+}
+div.Logo img {
+
+    
+}
+
+/* boton */
+
+button.boton {
+
+    padding-right: 90px;
+    background-color: #D9D9D9;
+    color: #0e0e0e;
+    border-radius: 20px;
+}
+
+/* texto del nav */
+
+
+
+
+/* titulo y parrafo */
+
+h1.titulo {
     font-family: 'Lilita One', cursive;
+    color: #6E1436;
+    font-size: 40pt;
+    margin-left: 35%;
 
 }
+p.parrafo {
 
-button {
-color: rgb(193, 8, 8);
+     margin-left:37% ;
 }
+
+/* imagenes de arriba*/
+
+section.imagenes {
+
+    background-color:#6E1436 ;
+    border-radius: 20px;
+}
+
+/* subtitulo y parrafo */
+
+h2.subt {
+
+    font-size: 32pt;
+    margin-left: 2%;
+    padding: 10px;
+    
+}
+
+p.prfo {
+
+    font-size: 16pt;
+    margin-left: 3%;
+    padding-right: 700px;
+   
+}
+
+h2.subt2 {
+
+    font-size: 32pt;
+    margin-left: 65%;
+
+}
+ p.prfo2 {
+
+    font-size: 16pt;
+    margin-left: 65%;
+
+ }
+
+ /* imagenes del centro */
+
+ section.imagenes2 {
+
+    background-color: #6E1436;
+    border-radius: 20px;
+
+ }
+
+ /* footer */
+
+ footer.footer {
+
+    background-color: #6E1436;
+    margin-top: 70px;
+
+
+ }
+
+ div.iconos {
+
+    
+ }
+
+
