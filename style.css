@@ -19,12 +19,18 @@ body {
 
 section.nav {
     background-color: #EE72A1;
-    position: sticky;
     display: flex;
-    gap: 519px;
     
 }
 
+ul.textodelnav {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 33px;
+padding-left: 150px;
+
+}
 /* boton */
 
 button.boton {
@@ -32,12 +38,11 @@ button.boton {
     background-color: #D9D9D9;
     color: #0e0e0e;
     border-radius: 20px;  
-    padding-left: 70px;
-    padding-right: 70px;
-    border-radius: 20px;
-    margin-left: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 600px;
     font-size: 20px;
-    left: 60%;
+ 
 }
 
 /* texto del nav */
@@ -69,8 +74,8 @@ section.imagenes {
 
 }
 div.imagen img {
-
-    gap: 20%;
+    display: flex;
+    
 }
 /* subtitulo y parrafo */
 
@@ -110,6 +115,12 @@ h2.subt2 {
     background-color: #6E1436;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
+ }
+ div.imagenes2 img {
+
+    width: 400px;
+    height: 400px;
 
  }
 
@@ -128,6 +139,8 @@ h2.subt2 {
     display: flex;
     margin-left: 80%;
     gap: 20px;
+    align-items: center;
+    
     
  }
 
